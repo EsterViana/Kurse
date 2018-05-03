@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+
+body {
+    background-image: url(./_img/kurse-banner2-.png);
+    background-repeat: no-repeat;
+}
+
+#logo {
+    display: flex;
+}
+
+#logo img {
+    display: inline-block;
+    padding: 05px;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-right: 7px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 04px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00bfff;
+    text-shadow: 1px 1px black;
+
+}
+
+nav a:hover {
+    transition: .7s;
+    color: aquamarine;
+}
