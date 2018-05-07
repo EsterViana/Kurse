@@ -5,6 +5,7 @@
 body {
     background-image: url(./_img/kurse-banner2-.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
