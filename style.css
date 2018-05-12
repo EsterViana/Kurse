@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0px;
+}
+
+#divisao {
+    background-image: url(./_img/esse1.jpg);
+    background-repeat: no-repeat;
+    height: 738px;
+
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+#divisao nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-right: 7px;
+}
+
+#divisao nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 04px;
+}
+
+#divisao nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00bfff;
+    text-shadow: 1px 1px black;
+
+}
+
+#divisao nav a:hover {
+    transition: .7s;
+    color: aquamarine;
+}
+
+div h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #00bfff;
+    font-size: 65pt;
+    margin-left: -20px;
+}
+
+div h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #4169e1;
+    font-size: 23pt;
+}
+
+#he {
+    text-align: center;
+    padding-top: 290px;
+     
+}
+
+#hs {
+    color: #4169e1;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+#Sobre {
+    padding: 20px 6px 0px 8px;
+    background-image: url(_img/sobrenos.jpg);
+    height: 800px;
+}
+
+#Sobre section {
+    width: 1000px;
+    border: solid 1px black;
+    border-radius: 50px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: black 1px 1px 1px;
+    color: #00bfff;
+    background-color: #B0C4DE;
+
+
+}
+
+/*#sobrenos {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #4169e1;
+    border-radius: 70%;
+    margin-left: 850px;
+    margin-top: -73px;
+}*/
+
+.um {
+   /* background-image: url(_img/sobrenos1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height: 120px;
+    /*width: 1000px;
+    border: 1px solid black;
+    border-radius: 50px 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;*/
+}
+
+.um h1 {
+    color: #4169e1;
+}
+
+
+.um2 {
+   /* background-image: url(_img/somos.jpg);*/
+    height: 120px;
+    margin-left: 500px;
+}
+
+.um2 h1 {
+    color: #4169e1;
+}
+
+.um3 {
+    height: 100px;
+    /*background-image: url(_img/missao.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.um3 h1{
+    color: #4169e1;
+}
+
+.um4 {
+    height: 110px;
+    /*background-image: url(_img/visao.jpg);*/
+    margin-left: 500px;
+}
+
+.um4 h1{
+    color: #4169e1;
+}
+
+.um5 {
+    height: 180px;
+    /*background-image: url(_img/valores.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;*/
+}
+
+.um5 h1{
+    color: #4169e1;
+}
+
