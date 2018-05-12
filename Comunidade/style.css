@@ -49,8 +49,7 @@ h2 {
 }
 
 #botao {
-    margin: 4px -01px 30px 0px;
-    /*margin-top: 30px;*/
+    margin: 5px 0px  25px  265px;
     border: black 1px solid;
     color: #606060;
 }
@@ -61,7 +60,7 @@ ul a {
 }
 h1 {
     text-align: center;
-    margin-top: 180px; 
+    margin-top: 175px; 
     color: #4169e1;
     background-color: rgba(0, 0, 0, .5);
     border-radius: 25px;
@@ -70,12 +69,9 @@ h1 {
 }
 
 #myBtn {
-    margin: 2px 0px -90px 270px;
-    /*margin-left: 270px  ;*/
     border: #4169e1 1px solid;
     border-radius: 20px;
     color: #00bfff;
-    /*margin-top: -90px;*/
     cursor: pointer;
 }
 
@@ -99,11 +95,14 @@ h1 {
 }
 
 .modal-content {
-    background-color: #00bfff;
-    margin: 15% auto;
-    padding: 20px;
-    border: #888 solid 1px;
-    width: 80%;
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px 50px 50px 50px;
+    border: black solid 1px;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #00bfff;
+
 
 }
 
@@ -112,6 +111,8 @@ h1 {
     float: right;
     font-size: 28pt;
     font-weight: bold;
+    margin: -30px -40px 200px 0px;
+
 }
 
 .close:hover,
